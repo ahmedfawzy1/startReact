@@ -1,0 +1,6 @@
+.bgMain {
+  background-color: var(--second-color);
+}
+nav {
+  transition: all 0.3s;
+}

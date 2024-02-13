@@ -1,0 +1,23 @@
+.contact {
+  margin-top: 108px;
+  min-height: calc(100vh - 106px);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact button {
+  background-color: #1abc9c;
+}
+.contact button:hover {
+  background-color: #50dcc0;
+}
+
+@media screen and (max-width: 767px) {
+  .contact form {
+    width: 100% !important;
+  }
+}
